@@ -33,6 +33,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ConfigPanel
 
+# ConsumerIR
+PRODUCT_PACKAGES += \
+    consumerir.msm8996
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.target.rc
