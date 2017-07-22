@@ -30,6 +30,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 # Kernel
 TARGET_KERNEL_CONFIG := scorpio_defconfig
 
+# NFC
+NXP_CHIP_TYPE := PN548
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
